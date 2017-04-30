@@ -10,6 +10,9 @@ you want to do.
 You will either pick from a database, or just do a quick
 simulation of two teams that you will create.
 
+There's not too much of a difference between the Mac
+and Windows versions. They both work the same.
+
 Thanks,
 
 Jason Knoll
