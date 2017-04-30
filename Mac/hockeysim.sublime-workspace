@@ -1,0 +1,673 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"create",
+				"createLeagueFromDB"
+			],
+			[
+				"testMatch",
+				"testMatchFromDB"
+			],
+			[
+				"ms",
+				"msvcrt"
+			],
+			[
+				"per",
+				"perimeter"
+			],
+			[
+				"quadra",
+				"Quadralateral"
+			],
+			[
+				"print",
+				"printSqrt( n : Float )	Void"
+			],
+			[
+				"ex",
+				"exponentRoots(  )	Unknown<0>"
+			],
+			[
+				"new",
+				"newcon"
+			],
+			[
+				"colu",
+				"column2	Array<Float>"
+			],
+			[
+				"col",
+				"column1"
+			],
+			[
+				"quad",
+				"quadGraph(...)	Float"
+			],
+			[
+				"qua",
+				"quadraticFormula(...)	Void"
+			],
+			[
+				"y",
+				"y	var"
+			],
+			[
+				"int",
+				"Int	class"
+			],
+			[
+				"Dya",
+				"Dynamic<T>	class"
+			],
+			[
+				"add",
+				"addChild"
+			],
+			[
+				"TEx",
+				"TextField	flash.text"
+			],
+			[
+				"Top",
+				"TOP_LEFT	flash.display.StageAlign"
+			],
+			[
+				"Stage",
+				"StageAlign	class"
+			],
+			[
+				"dri",
+				"Drivers"
+			],
+			[
+				"lo",
+				"lower"
+			],
+			[
+				"opp",
+				"oppName"
+			],
+			[
+				"op",
+				"oppName"
+			],
+			[
+				"team",
+				"teams"
+			],
+			[
+				"is",
+				"isBetter"
+			],
+			[
+				"a",
+				"aCount"
+			],
+			[
+				"da",
+				"daysInTheWild"
+			],
+			[
+				"p",
+				"Player"
+			],
+			[
+				"lgremo",
+				"lgremotedesktopuserboolean"
+			],
+			[
+				"local",
+				"localgroup"
+			],
+			[
+				"Pla",
+				"Player"
+			],
+			[
+				"fun",
+				"function	function"
+			],
+			[
+				"player",
+				"playerHand"
+			],
+			[
+				"pla",
+				"playerPosition"
+			],
+			[
+				"fu",
+				"function	function"
+			],
+			[
+				"Menu",
+				"menuSelect"
+			],
+			[
+				"game",
+				"gameMenu"
+			],
+			[
+				"get",
+				"getchar"
+			],
+			[
+				"main",
+				"mainMenu"
+			],
+			[
+				"midd",
+				"middleInitial"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"mi",
+				"middleInitial"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 3811,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Match.py",
+			"settings":
+			{
+				"buffer_size": 2850,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Team.py",
+			"settings":
+			{
+				"buffer_size": 1132,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "League.py",
+			"settings":
+			{
+				"buffer_size": 840,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nhldb.xml",
+			"settings":
+			{
+				"buffer_size": 2856,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Lua Dev/Lua.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"poackage",
+				"Package Control: Disable Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 216.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jason/OneDrive/sportsPredictionPython/nhldb.xml",
+		"/C/Users/Jason/OneDrive/sportsPredictionPython/run.bat",
+		"/C/Users/Jason/Desktop/python/projects/euro2016/euro.py",
+		"/C/Users/Jason/Desktop/python/projects/euro2016/run.bat",
+		"/C/Users/Jason/OneDrive/sportsPredictionPython/README.txt",
+		"/C/Users/Jason/OneDrive/sportsPredictionPython/deldb.xml",
+		"/C/Users/Jason/OneDrive/sportsPredictionPython/League.py",
+		"/C/Users/Jason/OneDrive/sportsPredictionPython/Season.py",
+		"/C/Users/Jason/OneDrive/sportsPredictionPython/testdb.xml",
+		"/C/Users/Jason/Desktop/password.txt",
+		"/C/Users/Jason/OneDrive/sportsPredictionPython/Division.py",
+		"/C/Users/Jason/OneDrive/sportsPredictionPython/Team.py",
+		"/C/Users/Jason/OneDrive/sportsPredictionPython/Match.py",
+		"/C/Users/Jason/OneDrive/test.bf",
+		"/C/Users/Jason/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Jason/Desktop/python/projects/sportsPrediction/Match.py",
+		"/C/Users/Jason/Desktop/python/projects/sportsPrediction/Player.py",
+		"/C/Users/Jason/Desktop/python/projects/sportsPrediction/Team.py",
+		"/C/Users/Jason/Desktop/python/projects/sportsPrediction/main.py",
+		"/C/Users/Jason/Desktop/python/projects/JKRPG/main.py",
+		"/C/Users/Jason/Desktop/python/projects/JKRPG/Tile.py",
+		"/C/Users/Jason/Desktop/python/projects/JKRPG/World.py",
+		"/C/Users/Jason/Desktop/python/projects/schoolGame/main.py",
+		"/C/Users/Jason/Desktop/python/projects/schoolGame/__init__.py",
+		"/C/Users/Jason/Desktop/python/projects/schoolGame/Ball.py",
+		"/C/Users/Jason/OneDrive/calc/Main.hx",
+		"/C/Users/Jason/Desktop/lua/projects/testStuff.lua",
+		"/C/Users/Jason/Desktop/lua/projects/connectFour.lua",
+		"/C/Users/Jason/Desktop/pls/pls/main.py",
+		"/C/Users/Jason/OneDrive/JKLang/Debug/pls.txt",
+		"/C/Users/Jason/Desktop/haxe/testHaxeStuff/calc/Main.hx",
+		"/C/Users/Jason/Desktop/haxe/testHaxeStuff/calc/test.py",
+		"/C/Users/Jason/Desktop/haxe/testHaxeStuff/calc/run.bat",
+		"/C/Users/Jason/Desktop/haxe/testHaxeStuff/practice/Main.hx",
+		"/C/Users/Jason/Desktop/haxe/first/Source/Ball.hx",
+		"/C/Users/Jason/Desktop/haxe/testHaxeStuff/practice/test.py",
+		"/C/Users/Jason/Desktop/haxe/testHaxeStuff/practice/Person.hx",
+		"/C/Users/Jason/Desktop/haxe/testHaxeStuff/practice/runMain.bat",
+		"/C/Users/Jason/Desktop/haxe/testHaxeStuff/practice/luaMain.bat",
+		"/C/Users/Jason/Desktop/haxe/testHaxeStuff/practice/test.lua",
+		"/C/Users/Jason/Desktop/haxe/first/Source/Main.hx",
+		"/C/Users/Jason/Desktop/haxe/Input.hx",
+		"/C/Users/Jason/Desktop/actionscript/unHaxeSrc/source/Terminal.hx",
+		"/C/Users/Jason/Desktop/actionscript/rpsrc/Assets.as",
+		"/C/Users/Jason/Desktop/actionscript/unHaxeSrc/source/AssetPaths.hx",
+		"/C/Users/Jason/Desktop/actionscript/unHaxeSrc/source/ButtonBar.hx",
+		"/C/Users/Jason/Desktop/lua/projects/yt.lua",
+		"/C/Users/Jason/Desktop/haxe/first/project.xml",
+		"/C/Users/Jason/Desktop/actionscript/unHaxeSrc/source/Main.hx",
+		"/C/Users/Jason/Desktop/actionscript/unHaxeSrc/source/TextButton.hx",
+		"/C/Users/Jason/Desktop/haxe/first/build.bat",
+		"/C/Users/Jason/Desktop/haxe/first/Source/run.bat",
+		"/C/Users/Jason/Desktop/lua/projects/randomGame.lua",
+		"/C/Users/Jason/Desktop/haxe/practiceGame/project.xml",
+		"/C/Users/Jason/Desktop/lua/projects/testSim.lua",
+		"/C/Users/Jason/Desktop/lua/projects/love2d/main.lua",
+		"/C/Users/Jason/Desktop/lua/projects/love2d/run.bat",
+		"/C/Users/Jason/Desktop/lua/projects/love2d/love.lua",
+		"/C/Users/Jason/Desktop/lua/projects/love.lua",
+		"/C/Users/Jason/Desktop/haxe/haxePractice/run.bat",
+		"/C/Users/Jason/Desktop/haxe/haxePractice/Main.hx",
+		"/C/csTest/src/Main.cs",
+		"/C/Users/Jason/Desktop/actionscript/unHaxeSrc/source/TitleState.hx",
+		"/C/Users/Jason/Desktop/actionscript/unHaxeSrc/Project.xml",
+		"/C/Users/Jason/Desktop/haxe/practiceGame/Source/Main.hx",
+		"/C/Users/Jason/Desktop/haxe/testGame/Main.hx",
+		"/C/Users/Jason/Desktop/haxe/Practice.hx",
+		"/C/Users/Jason/Desktop/actionscript/unHaxeSrc/source/Desk.hx",
+		"/C/Users/Jason/Desktop/haxe/test.lua",
+		"/C/Users/Jason/Desktop/haxe/py.py",
+		"/C/Users/Jason/Desktop/haxe/practice.hx",
+		"/C/Users/Jason/AppData/Roaming/Sublime Text 2/Packages/Haxe/Support/Haxe.sublime-settings",
+		"/C/Users/Jason/AppData/Roaming/Sublime Text 2/Packages/Lua Love/LuaLove.sublime-settings",
+		"/C/Users/Jason/Desktop/lua/projects/tut.lua",
+		"/C/Users/Jason/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jason/Desktop/lua/projects/ep1.lua",
+		"/C/Users/Jason/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Jason/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Jason/Desktop/lua/projects/loops.lua",
+		"/C/Users/Jason/Desktop/lua/projects/ep3.lua",
+		"/C/Users/Jason/Desktop/lua/projects/ep2.lua",
+		"/C/Users/Jason/Desktop/lua/projects/rndgame",
+		"/C/Users/Jason/Desktop/lua/projects/pls.lua",
+		"/C/Users/Jason/Desktop/lua/projects/morePractice.lua",
+		"/C/Users/Jason/Desktop/ccpp/c/ubuntuc/main.c",
+		"/C/Users/Jason/Desktop/python/php-7.1.2-src/main/php_ini.c",
+		"/C/Users/Jason/Documents/Visual Studio 2015/Projects/simpleEnigma/test.txt",
+		"/F/cSharp/complexEnigma/complexEnigma/main.cs",
+		"/C/Users/Jason/Desktop/python/php-7.1.2-src/main/php_ini.h",
+		"/C/Users/Jason/Desktop/desktop/wolfenstein source/BCW.ASM",
+		"/C/Users/Jason/Desktop/vba.ini",
+		"/C/Users/Jason/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/README.txt",
+		"/C/Users/Jason/Desktop/lua/projects/practice.lua",
+		"/C/Users/Jason/Desktop/lua/projects/random.lua",
+		"/C/Users/Jason/Desktop/lua/projects/eastGermany.lua",
+		"/C/Users/Jason/Desktop/lua/cprojects/pls/main.c",
+		"/C/Users/Jason/Desktop/lua/cprojects/pls.c",
+		"/C/Users/Jason/Desktop/lua/projects/explore.lua",
+		"/C/Users/Jason/Desktop/bfppbic/kys.txt",
+		"/C/Users/Jason/Desktop/bfppbic/pls.bfpp",
+		"/C/Users/Jason/Desktop/bfppbic/hh2b20ji.dzp.txt",
+		"/C/Users/Jason/Desktop/bfppbic/gkoudxmx.wio.txt",
+		"/C/Users/Jason/Desktop/bfppbic/fdmkjiq1.hz3.txt",
+		"/C/Users/Jason/Desktop/bfppbic/nfqmnkvw.hqf.txt",
+		"/C/Users/Jason/Desktop/bfppbic/xu40eqvv.4ay.txt",
+		"/C/Users/Jason/Desktop/bfppbic/uxguxvmu.4kh.txt",
+		"/C/Users/Jason/Desktop/bfppbic/0m1fs2d3.lmt.txt",
+		"/C/Users/Jason/Desktop/bfppbic/3t400usm.0xs.txt",
+		"/C/Users/Jason/Desktop/bfppbic/i45subn4.4hr.txt",
+		"/C/Users/Jason/Desktop/python/projects/bfpp/pls.bfpp",
+		"/C/Users/Jason/Desktop/Cyber-Patriot-Hal/Hal.bat",
+		"/C/Users/Jason/Desktop/python/projects/bfpp/kys.txt",
+		"/C/Users/Jason/Desktop/Cyber-Patriot-Hal/CHANGELOG",
+		"/C/Users/Jason/Desktop/coin/cgminer/linux-usb-cgminer.txt",
+		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/cudaminer/README.txt",
+		"/C/Users/Jason/Desktop/coin/cgminer/SCRYPT-README.txt",
+		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/defaults.ini",
+		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/README.txt",
+		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/gpusettings.ini",
+		"/C/Users/Jason/Desktop/Unsolicited/source/Session.hx",
+		"/C/Users/Jason/Desktop/Unsolicited/source/Terminal.hx",
+		"/C/Users/Jason/Desktop/Unsolicited/source/Desk.hx",
+		"/C/Users/Jason/Desktop/Unsolicited/source/Global.hx",
+		"/C/Users/Jason/Desktop/Unsolicited/source/AssetPaths.hx",
+		"/C/Users/Jason/Desktop/Unsolicited/source/TitleState.hx",
+		"/C/Users/Jason/Desktop/testGame/Test/source/MenuState.hx",
+		"/C/Users/Jason/Desktop/Unsolicited/source/Main.hx",
+		"/C/Users/Jason/Desktop/Unsolicited/source/TextButton.hx"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"c:\\Users\\Jason\\OneDrive\\sportsPrediction\\Python\\*.py",
+			"c:\\Users\\Jason\\OneDrive\\sportsPrediction\\Python\\,*.py"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"overall",
+			"goals",
+			"^.*\\S+.*$",
+			"class ",
+			"Sys",
+			"16",
+			"Math",
+			"pow",
+			"ThatOtherGuyOverThere",
+			"sp_mesh_tan",
+			"worm",
+			"5",
+			"middleInitial",
+			"(){\n",
+			"bAllow20HfrShader"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.py",
+					"settings":
+					{
+						"buffer_size": 3811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1855,
+								1855
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2948.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Match.py",
+					"settings":
+					{
+						"buffer_size": 2850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2314,
+								2314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Team.py",
+					"settings":
+					{
+						"buffer_size": 1132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "League.py",
+					"settings":
+					{
+						"buffer_size": 840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "nhldb.xml",
+					"settings":
+					{
+						"buffer_size": 2856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 91.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 151.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<data>
+	<league name="">
+		<team id="1">
+			<name>Brandon's Garbarge Team</name>
+			<overall>6</overall>
+		</team>
+		<team id="2">
+			<name>Jason's Godly Team</name>
+			<overall>100</overall>
+		</team>
+	</league>
+</data>
