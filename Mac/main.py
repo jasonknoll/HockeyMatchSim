@@ -119,7 +119,7 @@ def credits():
 	#print("I love hockey. (Just thought you should know that)")
 
 def menu():
-	os.system("cls") #clears the command line
+	os.system("clear") #clears the command line
 	while True:
 		print("--------------------------------------")
 		print("Jason Knoll's Hockey League Simulation v" + version)
@@ -140,7 +140,7 @@ def menu():
 		elif (i == "menu"):
 			menu()
 		elif (i == "clear"):
-			os.system("cls")
+			os.system("clear")
 		elif (i == "credits"):
 			credits()
 		elif (i == "exit" or i == "quit"):

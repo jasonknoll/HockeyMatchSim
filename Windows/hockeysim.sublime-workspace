@@ -175,14 +175,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "README.txt",
-			"settings":
-			{
-				"buffer_size": 479,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/Lua Dev/Lua.sublime-build",
 	"command_palette":
@@ -256,8 +248,8 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/main.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/README.txt",
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/main.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Team.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/League.py",
 		"/C/Users/Jason/OneDrive/sportsPredictionPython/README.txt",
@@ -435,35 +427,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.txt",
-					"settings":
-					{
-						"buffer_size": 479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								458,
-								458
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
