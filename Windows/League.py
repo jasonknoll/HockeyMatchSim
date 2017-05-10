@@ -20,7 +20,7 @@ class League:
 		for t in  self.teams:
 			print(t.name + ", ID: " + t.id + ", overall: " + str(t.overall))
 			
-	def standings(self):
+	def printStandings(self):
 		print("TEAM | GP | W | L | OTL | PTS")
 		#print(self.teams[0].name)
 
@@ -33,5 +33,5 @@ class League:
 	def setName(self, n):
 		self.name = n
 
-	def season():
+	def sortStandings(self):
 		pass
