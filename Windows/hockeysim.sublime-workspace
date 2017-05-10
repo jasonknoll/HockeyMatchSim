@@ -176,27 +176,19 @@
 	"buffers":
 	[
 		{
-			"file": "Season.py",
+			"file": "Player.py",
 			"settings":
 			{
-				"buffer_size": 373,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Team.py",
-			"settings":
-			{
-				"buffer_size": 1164,
+				"buffer_size": 888,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "League.py",
+			"file": "main.py",
 			"settings":
 			{
-				"buffer_size": 856,
-				"line_ending": "Unix"
+				"buffer_size": 3797,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -272,12 +264,13 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/League.py",
-		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Match.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/run.bat",
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Season.py",
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/League.py",
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Team.py",
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Match.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/main.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/README.txt",
-		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Team.py",
 		"/C/Users/Jason/OneDrive/sportsPredictionPython/README.txt",
 		"/C/Users/Jason/OneDrive/sportsPredictionPython/nhldb.xml",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/nhldb.xml",
@@ -398,8 +391,7 @@
 		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/defaults.ini",
 		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/README.txt",
 		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/gpusettings.ini",
-		"/C/Users/Jason/Desktop/Unsolicited/source/Session.hx",
-		"/C/Users/Jason/Desktop/Unsolicited/source/Terminal.hx"
+		"/C/Users/Jason/Desktop/Unsolicited/source/Session.hx"
 	],
 	"find":
 	{
@@ -451,28 +443,29 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Season.py",
+					"file": "Player.py",
 					"settings":
 					{
-						"buffer_size": 373,
+						"buffer_size": 888,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								373,
-								373
+								637,
+								637
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -482,18 +475,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Team.py",
+					"file": "main.py",
 					"settings":
 					{
-						"buffer_size": 1164,
+						"buffer_size": 3797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								206,
-								206
+								3048,
+								3048
 							]
 						],
 						"settings":
@@ -502,34 +495,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 288.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "League.py",
-					"settings":
-					{
-						"buffer_size": 856,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								856,
-								856
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2664.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

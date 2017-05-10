@@ -122,7 +122,7 @@ def menu():
 	os.system("cls") #clears the command line
 	while True:
 		print("--------------------------------------")
-		print("Jason Knoll's Hockey League Simulation v" + version)
+		print("Hockey League Simulation v" + version)
 		print("1. Test Match")
 		print("2. Test Match from Database")
 		print("3. Create League from Database") #must have team name and overall
