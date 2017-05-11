@@ -6,3 +6,5 @@ class Division:
 
 	def addTeam(self, t):
 		self.teams.append(t)
+		#oi
+		
