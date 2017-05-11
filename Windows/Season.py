@@ -13,3 +13,7 @@ class Season:
 	def runSeason(self):
 		pass
 		#run all of the games / set the standings
+
+	def testGames(self, t1, t2):
+		pass
+		#We can simulate a season using only two teams here

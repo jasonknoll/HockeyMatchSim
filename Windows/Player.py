@@ -7,6 +7,7 @@ class Player:
 		self.offense = 0
 		self.defense = 0
 
+		#don't worry about stats until seasons are finished
 		self.gamesPlayed = 0
 		self.goals = 0
 		self.assists = 0

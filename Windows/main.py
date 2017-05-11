@@ -112,7 +112,9 @@ def testMatchMenu():
 
 def createLeagueFromDB():
 	print("|Sim Season from DB|")
+	s = Season()
 	#sim every single game
+	#using the season class (or something)
 
 def credits():
 	print("Created by Jason Knoll")

@@ -176,10 +176,26 @@
 	"buffers":
 	[
 		{
+			"file": "Team.py",
+			"settings":
+			{
+				"buffer_size": 1184,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Season.py",
+			"settings":
+			{
+				"buffer_size": 465,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "Player.py",
 			"settings":
 			{
-				"buffer_size": 888,
+				"buffer_size": 942,
 				"line_ending": "Windows"
 			}
 		},
@@ -187,7 +203,15 @@
 			"file": "main.py",
 			"settings":
 			{
-				"buffer_size": 3797,
+				"buffer_size": 3851,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "deldb.xml",
+			"settings":
+			{
+				"buffer_size": 93,
 				"line_ending": "Windows"
 			}
 		}
@@ -264,12 +288,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Player.py",
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/main.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/run.bat",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Season.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/League.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Team.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Match.py",
-		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/main.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/README.txt",
 		"/C/Users/Jason/OneDrive/sportsPredictionPython/README.txt",
 		"/C/Users/Jason/OneDrive/sportsPredictionPython/nhldb.xml",
@@ -390,8 +415,7 @@
 		"/C/Users/Jason/Desktop/coin/cgminer/SCRYPT-README.txt",
 		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/defaults.ini",
 		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/README.txt",
-		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/gpusettings.ini",
-		"/C/Users/Jason/Desktop/Unsolicited/source/Session.hx"
+		"/C/Users/Jason/Desktop/coin/guiminer-scrypt/gpusettings.ini"
 	],
 	"find":
 	{
@@ -443,23 +467,76 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Player.py",
+					"file": "Team.py",
 					"settings":
 					{
-						"buffer_size": 888,
+						"buffer_size": 1184,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								637,
-								637
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Season.py",
+					"settings":
+					{
+						"buffer_size": 465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Player.py",
+					"settings":
+					{
+						"buffer_size": 942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
 							]
 						],
 						"settings":
@@ -474,19 +551,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "main.py",
 					"settings":
 					{
-						"buffer_size": 3797,
+						"buffer_size": 3851,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3048,
-								3048
+								3314,
+								3314
 							]
 						],
 						"settings":
@@ -495,7 +572,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2664.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "deldb.xml",
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

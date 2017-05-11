@@ -41,5 +41,5 @@ class Team:
 	def printOverall(self):
 		print(self.name + "'s overall: " + str(self.overall))
 
-	def setSchedule(self):
+	def setSchedule(self): #Might not use this
 		pass
