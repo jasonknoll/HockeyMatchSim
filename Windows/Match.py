@@ -53,10 +53,14 @@ class Match:
 	def checkWin(self, t1, t2):
 		if (t1.score > t2.score):
 			t1.didWin = True
+			t1.addWin()
 			t2.didWin = False
+			t2.addLoss()
 		elif (t2.score > t1.score):
 			t1.didWin = False
+			t1.addLoss()
 			t2.didWin = True
+			t2.addWin()
 		else:
 			t1.didWin = False
 			t2.didWin = False
@@ -73,10 +77,8 @@ class Match:
 		print("-------------")
 		if (t1.didWin == True):
 			print(t1.name + " won!")
-			t1.points = t1.points + 2
 		elif (t2.didWin == True):
 			print(t2.name + " won!")
-			t1.points = t1.points + 2
 	def printScore(self, t1, t2):
 		#print(str(t1.points))
 		#print(str(t2.points))

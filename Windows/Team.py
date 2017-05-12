@@ -26,7 +26,7 @@ class Team:
 		self.points = self.points + 2
 	def addLoss(self):
 		self.losses  = self.losses + 1
-	def addOTL(self):
+	def addOTL(self): #Work on this later
 		self.points = self.points + 1
 
 	def printRoster(self):
