@@ -14,7 +14,8 @@ class Team:
 		self.roster = [] #work on this after a general league is created
 		self.total = 0 #total of the roster players' overall ratings
 
-		self.schedule = [] #list of matches
+		#self.schedule = [] #list of matches
+		#Don't use this, as this screws up organization
 		self.standingsSpot = 0 #where they are in the standings
 
 	def addPlayer(self, p): #adds player to roster
