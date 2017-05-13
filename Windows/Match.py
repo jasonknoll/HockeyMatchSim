@@ -54,8 +54,10 @@ class Match:
 		if (t1.score > t2.score):
 			t1.didWin = True
 			t1.addWin()
+			t1.goals = t1.goals + t1.score
 			t2.didWin = False
 			t2.addLoss()
+			t2.goals = t2.goals + t2.score
 		elif (t2.score > t1.score):
 			t1.didWin = False
 			t1.addLoss()

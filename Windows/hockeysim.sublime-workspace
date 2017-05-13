@@ -184,22 +184,6 @@
 			}
 		},
 		{
-			"file": "Season.py",
-			"settings":
-			{
-				"buffer_size": 1270,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Match.py",
-			"settings":
-			{
-				"buffer_size": 3173,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "Team.py",
 			"settings":
 			{
@@ -288,14 +272,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Season.py",
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Match.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/deldb.xml",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Player.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/main.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/run.bat",
-		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Season.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/League.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Team.py",
-		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Match.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/README.txt",
 		"/C/Users/Jason/OneDrive/sportsPredictionPython/README.txt",
 		"/C/Users/Jason/OneDrive/sportsPredictionPython/nhldb.xml",
@@ -482,8 +466,8 @@
 						"selection":
 						[
 							[
-								445,
-								445
+								3529,
+								3529
 							]
 						],
 						"settings":
@@ -499,60 +483,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Season.py",
-					"settings":
-					{
-						"buffer_size": 1270,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								327,
-								327
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Match.py",
-					"settings":
-					{
-						"buffer_size": 3173,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2758,
-								2758
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "Team.py",
 					"settings":
 					{
@@ -579,7 +509,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "nhldb.xml",
 					"settings":
 					{

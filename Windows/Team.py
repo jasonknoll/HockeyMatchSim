@@ -4,6 +4,7 @@ class Team:
 		self.id = ID
 		self.overall = o
 		self.modifier = 0
+		self.games = 0
 		self.goals = 0
 		self.shots = 0
 		self.wins = 0
@@ -11,6 +12,7 @@ class Team:
 		self.points = 0
 		self.goalDif = 0
 		self.didWin = False
+		self.canSchedule = True
 		self.roster = [] #work on this after a general league is created
 		self.total = 0 #total of the roster players' overall ratings
 

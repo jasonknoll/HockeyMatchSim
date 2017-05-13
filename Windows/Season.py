@@ -14,6 +14,11 @@ class Season:
 
 	def createMatch(self, t1, t2): #somehow create an algorithm that does this randomly
 		self.matches.append(Match(t1, t2))
+		t1.games = t1.games + 1
+		t2.games = t2.games + 1
+
+	def createEveryMatch(self, t1, t2):
+		pass #use the canSchedule boolean to schedule games
 
 	def testCreateMatches(self, t1, t2):
 		i = 0
