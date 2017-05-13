@@ -85,6 +85,15 @@ class Match:
 		print(t1.name + ": " + str(t1.score) + " goals | " + str(t1.shots) + " shots")
 		print(t2.name + ": " + str(t2.score) + " goals | " + str(t2.shots) + " shots")
 
+	def runWithoutScore(self):
+		self.calcModifier(self.team1, self.team2)
+		self.calcScore(self.team1, self.team2)
+		self.checkMod(self.team1, self.team2)
+		self.checkOverall(self.team1, self.team2)
+		self.checkShots(self.team1, self.team2)
+		self.checkWin(self.team1, self.team2)
+		self.checkOT(self.team1, self.team2)
+
 	def run(self): #run all of the functions
 		self.calcModifier(self.team1, self.team2)
 		self.calcScore(self.team1, self.team2)
