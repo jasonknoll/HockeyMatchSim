@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
 <data>
-	<league name="del">
+	<league name="DEL">
 		<team id="aug">
+			<name>Augsburger Panther</name>
+			<overall>60</overall>
 		</team>
 	</league>
 </data>

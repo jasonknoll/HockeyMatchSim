@@ -20,6 +20,10 @@ class Season:
 			fileName = name 
 			fullPath = os.path.abspath(os.path.join('', fileName))
 			dom = ElementTree.parse(fullPath)
+			leag = dom.findall('league')
+			for l in leag:
+				n = l.get('name')
+				lg.name = n
 			teams = dom.findall('league/team') #check teams
 			for t in teams:
 				n = t.find('name')
@@ -31,14 +35,14 @@ class Season:
 
 	def menu(self):
 		print("--------------------------------------")
-		print("1. Run season between two teams")
-		print("2. Run season for a league")
+		print("1. Run season for a league")
+		print("2. Return to menu")
 		print("--------------------------------------")
 		i = input(">")
 		if (i == "1"):
-			self.twoTeamSeason()
-		elif (i == "2"):
 			self.fullSeason()
+		elif (i == "2"):
+			pass
 		else:
 			print("'" + i + "' is not a valid option!")
 
@@ -81,6 +85,7 @@ class Season:
 		n = input(">")
 		self.loadDB(n, lg)
 		self.setLeague(lg)
+		#print(self.league.name)
 		print("--------------------------------------")
 		print("1. Run whole season")
 		print("2. Return to menu")
@@ -108,20 +113,23 @@ class Season:
 		i = 0
 		teamTotal = 0
 		gs = 0 #games skipped
-		while(i < 2460): #amount of games
-			t1num = randint(0, 29)
-			if (self.league.teams[t1num].games < 82):
-				t1 = self.league.teams[t1num]
-				self.league.teams[t1num].canSchedule = False
-				t2num = randint(0, 29)
-				if (t2num != t1num and self.league.teams[t2num].games < 82 and self.league.teams[t2num].lastTeam != t1):
-					t2 = self.league.teams[t2num]
-					self.league.teams[t2num].canSchedule = False
-					self.createMatch(t1, t2)
-					#print(str(i) + " " + str(t1num) + " " + str(t2num))
+		while(i < 10000): #makes it more likely to schedule every game
+			if (self.league.name == "NHL"):
+				t1num = randint(0, 29)
+				if (self.league.teams[t1num].games < 82):
+					t1 = self.league.teams[t1num]
+					self.league.teams[t1num].canSchedule = False
+					t2num = randint(0, 29)
+					if (t2num != t1num and self.league.teams[t2num].games < 82 and self.league.teams[t2num].lastTeam != t1):
+						t2 = self.league.teams[t2num]
+						self.league.teams[t2num].canSchedule = False
+						self.createMatch(t1, t2)
+						#print(str(i) + " " + str(t1num) + " " + str(t2num))
+						i = i + 1
+				else:
 					i = i + 1
-			else:
-				i = i + 1
+			elif (self.league.name == "DEL"):
+				pass #german league
 
 		for j in self.league.teams:
 			if (j.games < 82):
@@ -136,7 +144,7 @@ class Season:
 			#print(j.name + " " + str(j.games))
 
 		#print(gs)
-		print(teamTotal)
+		#print(teamTotal)
 
 	def testCreateMatches(self, t1, t2):
 		i = 0
@@ -170,4 +178,5 @@ class Season:
 	def displayStandings(self): #sort standings here
 		self.league.teams.sort(key=lambda x: x.points, reverse=True)
 		for t in self.league.teams:
-			print(t.name + " GP: " + str(t.games) + ", points: " + str(t.points))
+			print("-------------------")
+			print(t.name + " | GP: " + str(t.games) + " | wins: " + str(t.wins) + " | losses: " + str(t.losses) + " | points: " + str(t.points) + " |")

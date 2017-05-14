@@ -11,7 +11,7 @@
 #Don't use rosters until the general system of simulating a season is working
 
 global version
-version = "0.1.16"
+version = "0.1.18"
 
 import os
 import sys

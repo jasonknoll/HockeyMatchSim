@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <data>
-	<league name="nhl">
+	<league name="NHL">
 		<team id="ana">
 			<name>Anaheim Ducks</name>
 			<overall>88</overall>
