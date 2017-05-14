@@ -11,7 +11,7 @@
 #Don't use rosters until the general system of simulating a season is working
 
 global version
-version = "0.1.8"
+version = "0.1.16"
 
 import os
 import sys
@@ -21,6 +21,7 @@ from Team import *
 from Match import *
 from Player import *
 from League import *
+from Season import *
 #tree = et.parse('db.xml') #please work parse database to set the teams
 
 def noRosterGame(): #The real test match
@@ -113,24 +114,7 @@ def testMatchMenu():
 def createLeagueFromDB():
 	print("|Sim Season from DB|")
 	s = Season()
-	lg = League()
-	print("What is the name of your database?")
-	n = input(">")
-	loadDB(n, lg)
-	s.setLeague(lg)
-	print("What is the first team's id?")
-	fID = input(">")
-	fID = fID.lower()
-	print("What is the second team's id?")
-	sID = input(">")
-	sID = sID.lower()
-	t1 = findTeamInDB(lg, str(fID))
-	t2 = findTeamInDB(lg, str(sID))
-	try:
-		s.testCreateMatches(t1, t2)
-		s.testGames(t1, t2) #testing it out between two teams
-	except AttributeError:
-		print("Valid team ID's must be entered")
+	s.menu()
 	#sim every single game
 	#using the season class (or something)
 
