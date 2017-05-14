@@ -101,6 +101,8 @@ class Season:
 		self.matches.append(Match(t1, t2))
 		t1.games = t1.games + 1
 		t2.games = t2.games + 1
+		t1.lastTeam = t2.name
+		t2.lastTeam = t1.name
 
 	def createEveryMatch(self):
 		i = 0
@@ -112,7 +114,7 @@ class Season:
 				t1 = self.league.teams[t1num]
 				self.league.teams[t1num].canSchedule = False
 				t2num = randint(0, 29)
-				if (t2num != t1num and self.league.teams[t2num].games < 82):
+				if (t2num != t1num and self.league.teams[t2num].games < 82 and self.league.teams[t2num].lastTeam != t1):
 					t2 = self.league.teams[t2num]
 					self.league.teams[t2num].canSchedule = False
 					self.createMatch(t1, t2)
@@ -124,6 +126,8 @@ class Season:
 		for j in self.league.teams:
 			if (j.games < 82):
 				nextNum = randint(0, 29)
+				if (self.league.teams[nextNum].games >= 82):
+					nextNum = randint(0, 29)
 				while (self.league.teams[nextNum].games >= 82):
 					nextNum = randint(0, 29)
 				self.createMatch(j, self.league.teams[nextNum])

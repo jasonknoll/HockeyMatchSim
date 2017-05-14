@@ -3,19 +3,19 @@
 	<league name="nhl">
 		<team id="ana">
 			<name>Anaheim Ducks</name>
-			<overall>89</overall>
+			<overall>88</overall>
 		</team>
 		<team id="ari">
 			<name>Arizona Coyotes</name>
-			<overall>86</overall>
+			<overall>79</overall>
 		</team>
 		<team id="bos">
 			<name>Boston Bruins</name>
-			<overall>90</overall>
+			<overall>83</overall>
 		</team>
 		<team id="buf">
 			<name>Buffalo Sabres</name>
-			<overall>87</overall>
+			<overall>80</overall>
 		</team>
 		<team id="cgy">
 			<name>Calgary Flames</name>
@@ -23,27 +23,27 @@
 		</team>
 		<team id="car">
 			<name>Carolina Hurricanes</name>
-			<overall>86</overall>
+			<overall>83</overall>
 		</team>
 		<team id="chi">
 			<name>Chicago Blackhawks</name>
-			<overall>90</overall>
+			<overall>91</overall>
 		</team>
 		<team id="col">
 			<name>Colorado Avalanche</name>
-			<overall>85</overall>
+			<overall>80</overall>
 		</team>
 		<team id="cbj">
 			<name>Columbus Blue Jackets</name>
-			<overall>87</overall>
+			<overall>90</overall>
 		</team>
 		<team id="dal">
 			<name>Dallas Stars</name>
-			<overall>89</overall>
+			<overall>84</overall>
 		</team>
 		<team id="det">
 			<name>Detroit Red Wings</name>
-			<overall>89</overall>
+			<overall>85</overall>
 		</team>
 		<team id="edm">
 			<name>Edmonton Oilers</name>
@@ -55,7 +55,7 @@
 		</team>
 		<team id="lak">
 			<name>Los Angeles Kings</name>
-			<overall>92</overall>
+			<overall>83</overall>
 		</team>
 		<team id="min">
 			<name>Minnesota Wild</name>
@@ -63,23 +63,23 @@
 		</team>
 		<team id="mtl">
 			<name>Montreal Canadiens</name>
-			<overall>91</overall>
+			<overall>92</overall>
 		</team>
 		<team id="nsh">
-			<name>Nashville Predetors</name>
-			<overall>90</overall>
+			<name>Nashville Predators</name>
+			<overall>91</overall>
 		</team>
 		<team id="nj">
 			<name>New Jersey Devils</name>
-			<overall>85</overall>
+			<overall>83</overall>
 		</team>
 		<team id="nyi">
 			<name>New York Islanders</name>
-			<overall>87</overall>
+			<overall>85</overall>
 		</team>
 		<team id="nyr">
 			<name>New York Rangers</name>
-			<overall>90</overall>
+			<overall>91</overall>
 		</team>
 		<team id="ott">
 			<name>Ottawa Senators</name>
@@ -87,39 +87,39 @@
 		</team>
 		<team id="phi">
 			<name>Phillideplphia Flyers</name>
-			<overall>86</overall>
+			<overall>84</overall>
 		</team>
 		<team id="pit">
 			<name>Pittsburgh Penguins</name>
-			<overall>91</overall>
+			<overall>95</overall>
 		</team>
 		<team id="sjs">
 			<name>San Jose Sharks</name>
-			<overall>89</overall>
+			<overall>84</overall>
 		</team>
 		<team id="stl">
 			<name>St. Louis Blues</name>
-			<overall>90</overall>
+			<overall>89</overall>
 		</team>
 		<team id="tbl">
 			<name>Tampa Bay Lightning</name>
-			<overall>90</overall>
+			<overall>87</overall>
 		</team>
 		<team id="tor">
 			<name>Toronto Maple Leafs</name>
-			<overall>85</overall>
+			<overall>86</overall>
 		</team>
 		<team id="van">
 			<name>Vancouver Canucks</name>
-			<overall>86</overall>
+			<overall>85</overall>
 		</team>
 		<team id="wsh">
 			<name>Washington Capitals</name>
-			<overall>92</overall>
+			<overall>93</overall>
 		</team>
 		<team id="wpg">
 			<name>Winnipeg Jets</name>
-			<overall>88</overall>
+			<overall>86</overall>
 		</team>
 	</league>
 

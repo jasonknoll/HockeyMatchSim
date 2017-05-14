@@ -18,31 +18,31 @@ class Match:
 			t2.overall = 100
 		elif (t2.overall < 0):
 			t2.overall = 0
-		t1.modifier = randint(1, 15) * t1.overall #adds a random element
-		t2.modifier = randint(1, 15) * t2.overall
+		t1.modifier = randint(randint(1,1), 15) * t1.overall #adds a random element
+		t2.modifier = randint(randint(1,1), 15) * t2.overall
 	def calcScore(self, t1, t2):
-		t1.score = randint(0, 4)
-		t1.shots = randint(23, 32)
-		t2.score = randint(0, 4)
-		t2.shots = randint(23, 32)
+		t1.score = randint(randint(0,1), randint(4,5))
+		t1.shots = randint(20, 32)
+		t2.score = randint(randint(0,1), randint(4,5))
+		t2.shots = randint(20, 32)
 	def checkMod(self, t1, t2): #vapenashion \//\
-		if (t1.modifier > t2.modifier and t1.score < t2.score):
+		if (t1.modifier > t2.modifier and t1.score < t2.score and t1.overall - t2.overall > 7):
 			i = 0 #gives any team a chance to claim victory
 			while (i < 1):
-				t1.score = randint(0, 4)
-				t2.score = randint(0, 3)
+				t1.score = randint(randint(1,1), randint(4,5))
+				t2.score = randint(randint(0,0), 3)
 				i = i + 1
-		elif (t1.modifier < t2.modifier and t1.score > t2.score):
+		elif (t1.modifier < t2.modifier and t1.score > t2.score and t2.overall - t1.overall > 7):
 			i = 0
 			while (i < 1):
-				t1.score = randint(0, 3)
-				t2.score = randint(0, 4)
+				t1.score = randint(randint(0,0), 3)
+				t2.score = randint(randint(1,1), randint(4,5))
 				i = i + 1
 	def checkOverall(self, t1, t2):
-		if (t1.overall - t2.overall >= 25):
+		if (t1.overall - t2.overall >= 13):
 			t1.score = t1.score + 2
 			t1.shots = t1.shots + randint(10, 15)
-		if (t2.overall - t1.overall >= 25):
+		if (t2.overall - t1.overall >= 13):
 			t2.score = t2.score + 2
 			t2.shots = t2.shots + randint(10, 15)
 	def checkShots(self, t1, t2):
@@ -58,11 +58,23 @@ class Match:
 			t2.didWin = False
 			t2.addLoss()
 			t2.goals = t2.goals + t2.score
+			"""
+			if (t2.hasOTL == True):
+				t2.points = t2.points + 1
+			t2.hasOTL = False
+			"""
 		elif (t2.score > t1.score):
 			t1.didWin = False
 			t1.addLoss()
+			t1.goals = t1.goals + t1.score
 			t2.didWin = True
 			t2.addWin()
+			t2.goals = t2.goals + t2.score
+			"""
+			if (t1.hasOTL == True):
+				t1.points = t1.points + 1
+			t1.hasOTL = False
+			"""
 		else:
 			t1.didWin = False
 			t2.didWin = False
@@ -71,8 +83,10 @@ class Match:
 			whoWins = randint(0, 1)
 			if (whoWins == 0):
 				t1.score = t1.score + 1
+				t2.hasOTL = True
 			else:
 				t2.score = t2.score + 1
+				t1.hasOTL = True
 			#print("Tie game detected")
 			self.checkWin(t1, t2)
 	def printWin(self, t1, t2):

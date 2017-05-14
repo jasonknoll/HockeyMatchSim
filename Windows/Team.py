@@ -13,8 +13,11 @@ class Team:
 		self.goalDif = 0
 		self.didWin = False
 		self.canSchedule = True
+		self.isInOT = False
+		self.hasOTL = False
 		self.roster = [] #work on this after a general league is created
 		self.total = 0 #total of the roster players' overall ratings
+		self.lastTeam = ""
 
 		#self.schedule = [] #list of matches
 		#Don't use this, as this screws up organization
