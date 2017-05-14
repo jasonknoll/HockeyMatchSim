@@ -116,7 +116,7 @@ class Season:
 					t2 = self.league.teams[t2num]
 					self.league.teams[t2num].canSchedule = False
 					self.createMatch(t1, t2)
-					print(str(i) + " " + str(t1num) + " " + str(t2num))
+					#print(str(i) + " " + str(t1num) + " " + str(t2num))
 					i = i + 1
 			else:
 				i = i + 1
@@ -132,7 +132,7 @@ class Season:
 			#print(j.name + " " + str(j.games))
 
 		#print(gs)
-		#print(teamTotal)
+		print(teamTotal)
 
 	def testCreateMatches(self, t1, t2):
 		i = 0
@@ -164,5 +164,6 @@ class Season:
 		#We can simulate a season using only two teams here
 
 	def displayStandings(self): #sort standings here
+		self.league.teams.sort(key=lambda x: x.points, reverse=True)
 		for t in self.league.teams:
 			print(t.name + " GP: " + str(t.games) + ", points: " + str(t.points))

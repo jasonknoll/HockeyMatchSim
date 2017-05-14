@@ -40,7 +40,11 @@ def loadDB(name, lg): #file name plus league
 			n = t.find('name')
 			o = t.find('overall')
 			i = t.get('id') #id name/number
-			lg.addTeam(Team(n.text, int(o.text), i))
+			try:
+				lg.addTeam(Team(n.text, int(o.text), i))
+			except AttributeError:
+				print("Error loading file")
+				break
 	except FileNotFoundError:
 		print(fileName + " does not exist!")
 		#menu()
