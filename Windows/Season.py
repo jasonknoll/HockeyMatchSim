@@ -111,34 +111,37 @@ class Season:
 
 	def searchLowestGP(self): 
 		lowestGP = []
-		minimum = self.league.teams[0] #we have a problem here
+		minimum = self.league.teams[0]
 		for t in self.league.teams:
 			if t.games < minimum.games:
-				lowestGP = [t]
+				lowestGP.append(t) #fixed it
 				minimum = t
 			elif t.games == minimum.games:
 				lowestGP.append(t)
+				minimum = t
+			#print(t.name)
 		return lowestGP
 
 	def findSecondTeam(self, firstTeam): #pick from every team, but the team we pass
-		mins = self.searchLowestGP()
 		while (True): 
-			t2num = randint(0, len(mins)-1)
-			print(mins[t2num] != firstTeam)
-			if (mins[t2num] != firstTeam):
-				return mins[t2num]
+			mins = self.searchLowestGP()
+			tnum = randint(0, len(mins)-1)
+			if (mins[tnum] != firstTeam):
+				return mins[tnum]
 
 	def createEveryMatch(self):
 		i = 0
 		teamTotal = 0
 		gs = 0 #games skipped
+		finished = 0
 		while(i < 2460): #makes it more likely to schedule every game
 			if (self.league.name == "NHL"):
 				t1num = randint(0, 29)
 				if (self.league.teams[t1num].games < 82):
 					t1 = self.league.teams[t1num]
-					self.league.teams[t1num].canSchedule = False
-					self.createMatch(t1, self.findSecondTeam(t1))
+					t2 = self.findSecondTeam(t1)
+					if (t2.games < 82): #fixed the loop
+						self.createMatch(t1, t2)
 					#t2num = randint(0, 29)
 					#t2num = randint(0, len(self.searchLowestGP()))
 					#add in findSecondTeam here
@@ -147,7 +150,6 @@ class Season:
 						t2 = self.league.teams[t2num];
 						self.league.teams[t2num].canSchedule = False
 					"""
-						
 						#print(str(i) + " " + str(t1num) + " " + str(t2num))
 					i = i + 1
 				else:
