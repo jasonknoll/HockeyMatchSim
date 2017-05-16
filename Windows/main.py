@@ -6,7 +6,7 @@
 
 #CHECKLIST:
 #Calculate the winner of a match using user input or parse an xml file /DONE/
-#Simulate an entire league (possibly post season too)
+#Simulate an entire league (possibly post season too) /DONE/
 #Add more details to matches
 #Don't use rosters until the general system of simulating a season is working
 
@@ -139,7 +139,9 @@ def credits():
 	#print("I love hockey. (Just thought you should know that)")
 
 def menu():
-	os.system("cls") #clears the command line
+	os.system("@echo off")
+	os.system("cls")
+	os.system("clear") #clears the command line
 	while True:
 		print("--------------------------------------")
 		print("Hockey League Simulation v" + version)
@@ -147,6 +149,7 @@ def menu():
 		print("2. Test Match from Database")
 		print("3. Create League from Database") #must have team name and overall
 		print("4. List Teams in League")
+		print("5. Exit")
 		print("--------------------------------------")
 		i = input(">")
 		if (i == "1"):
@@ -157,6 +160,9 @@ def menu():
 			createLeagueFromDB()
 		elif (i == "4"):
 			listTeamsInDB()
+		elif (i == "5"):
+			print("Exiting...")
+			sys.exit()
 		elif (i == "menu"):
 			menu()
 		elif (i == "clear"):
