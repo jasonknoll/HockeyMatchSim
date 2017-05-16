@@ -58,11 +58,11 @@ class Match:
 			t2.didWin = False
 			t2.addLoss()
 			t2.goals = t2.goals + t2.score
-			"""
+			
 			if (t2.hasOTL == True):
-				t2.points = t2.points + 1
-			t2.hasOTL = False
-			"""
+				t2.addOTL()
+				t2.hasOTL = False
+			
 		elif (t2.score > t1.score):
 			t1.didWin = False
 			t1.addLoss()
@@ -70,11 +70,11 @@ class Match:
 			t2.didWin = True
 			t2.addWin()
 			t2.goals = t2.goals + t2.score
-			"""
+			
 			if (t1.hasOTL == True):
-				t1.points = t1.points + 1
-			t1.hasOTL = False
-			"""
+				t1.addOTL()
+				t1.hasOTL = False
+			
 		else:
 			t1.didWin = False
 			t2.didWin = False
