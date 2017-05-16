@@ -23,7 +23,7 @@
 		</team>
 		<team id="car">
 			<name>Carolina Hurricanes</name>
-			<overall>83</overall>
+			<overall>82</overall>
 		</team>
 		<team id="chi">
 			<name>Chicago Blackhawks</name>
@@ -59,7 +59,7 @@
 		</team>
 		<team id="min">
 			<name>Minnesota Wild</name>
-			<overall>90</overall>
+			<overall>89</overall>
 		</team>
 		<team id="mtl">
 			<name>Montreal Canadiens</name>
@@ -79,7 +79,7 @@
 		</team>
 		<team id="nyr">
 			<name>New York Rangers</name>
-			<overall>91</overall>
+			<overall>90</overall>
 		</team>
 		<team id="ott">
 			<name>Ottawa Senators</name>
@@ -91,7 +91,7 @@
 		</team>
 		<team id="pit">
 			<name>Pittsburgh Penguins</name>
-			<overall>93</overall>
+			<overall>92</overall>
 		</team>
 		<team id="sjs">
 			<name>San Jose Sharks</name>
