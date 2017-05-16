@@ -11,7 +11,9 @@
 #Don't use rosters until the general system of simulating a season is working
 
 global version
-version = "0.1.20"
+version = "0.2.3"
+
+
 
 import os
 import sys
@@ -22,7 +24,6 @@ from Match import *
 from Player import *
 from League import *
 from Season import *
-#tree = et.parse('db.xml') #please work parse database to set the teams
 
 def noRosterGame(): #The real test match
 	t1 = Team("Team 1", 100)
@@ -31,11 +32,14 @@ def noRosterGame(): #The real test match
 	m.run
 
 def loadDB(name, lg): #file name plus league
+	global foundFile
+	foundFile = False
 	try:
 		fileName = name 
 		fullPath = os.path.abspath(os.path.join('', fileName))
 		dom = ElementTree.parse(fullPath)
 		teams = dom.findall('league/team') #check teams
+		foundFile = True
 		for t in teams:
 			n = t.find('name')
 			o = t.find('overall')
@@ -44,9 +48,11 @@ def loadDB(name, lg): #file name plus league
 				lg.addTeam(Team(n.text, int(o.text), i))
 			except AttributeError:
 				print("Error loading file")
+				foundFile = False
 				break
 	except FileNotFoundError:
 		print(fileName + " does not exist!")
+		foundFile = False
 		#menu()
 		#sys.exit()
 def testLeagueTeams(lg):
@@ -79,26 +85,32 @@ def testMatchFromDB(): #load from what the player says to load from
 	print("What is the name of your database? (xml)")
 	n = input(">")
 	loadDB(n, testLG)
-	print("What is the first team's id?")
-	fID = input(">")
-	fID = fID.lower()
-	#check for team 1 id and then team 2 id
-	print("What is the second team's id?")
-	sID = input(">")
-	sID = sID.lower()
-	t1 = findTeamInDB(testLG, str(fID))
-	t2 = findTeamInDB(testLG, str(sID))
-	try:
-		testMatch(t1, t2)
-	except AttributeError:
-		print("Valid team ID's must be entered")
+	if (foundFile == True):
+		print("What is the first team's id?")
+		fID = input(">")
+		fID = fID.lower()
+		#check for team 1 id and then team 2 id
+		print("What is the second team's id?")
+		sID = input(">")
+		sID = sID.lower()
+		t1 = findTeamInDB(testLG, str(fID))
+		t2 = findTeamInDB(testLG, str(sID))
+		try:
+			testMatch(t1, t2)
+		except AttributeError:
+			print("Valid team ID's must be entered")
+	else:
+		pass
 
 def listTeamsInDB():
 	print("What is the name of your database? (xml)")
 	lg = League()
 	n = input(">")
 	loadDB(n, lg)
-	lg.listTeams()
+	if (foundFile == True):
+		lg.listTeams()
+	else:
+		pass
 
 def testMatchMenu():
 	print("|Test Match|")
@@ -153,7 +165,7 @@ def menu():
 			credits()
 		elif (i == "exit" or i == "quit"):
 			print("Exiting...")
-			break
+			sys.exit()
 		else:
 			print("'" + i + "' is not a valid option!")
 

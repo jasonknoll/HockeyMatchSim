@@ -14,6 +14,7 @@ class Season:
 	def __init__(self):
 		self.matches = [] #array of every match (2,460 matches)
 		self.league = []
+		self.foundFile = False
 
 	def loadDB(self, name, lg): #file name plus league
 		try:
@@ -30,6 +31,7 @@ class Season:
 				o = t.find('overall')
 				i = t.get('id') #id name/number
 				lg.addTeam(Team(n.text, int(o.text), i))
+			self.foundFile = True
 		except FileNotFoundError:
 			print(fileName + " does not exist!")
 
@@ -42,6 +44,8 @@ class Season:
 		if (i == "1"):
 			self.fullSeason()
 		elif (i == "2"):
+			pass
+		elif (i == "3"):
 			pass
 		else:
 			print("'" + i + "' is not a valid option!")
@@ -86,18 +90,25 @@ class Season:
 		self.loadDB(n, lg)
 		self.setLeague(lg)
 		#print(self.league.name)
-		print("--------------------------------------")
-		print("1. Run whole season")
-		print("2. Return to menu")
-		print("--------------------------------------")
-		i = input(">")
-		if (i == "1"):
-			self.createEveryMatch()
-			self.runSeason()
-		elif (i == "2"):
-			pass
+		if (self.foundFile == True):
+			self.foundfile = False
+			print("--------------------------------------")
+			print("1. Run whole season")
+			print("2. Just schedule season")
+			print("3. Return to menu")
+			print("--------------------------------------")
+			i = input(">")
+			if (i == "1"):
+				self.createEveryMatch()
+				self.runSeason()
+			elif (i == "2"):
+				self.scheduleSeason()
+			elif (i == "3"):
+				pass
+			else:
+				print("'" + i + "' is not a valid option!")
 		else:
-			print("'" + i + "' is not a valid option!")
+			pass
 
 	def setLeague(self, lg):
 		self.league = lg #allow us to sort standings
@@ -134,7 +145,7 @@ class Season:
 		teamTotal = 0
 		gs = 0 #games skipped
 		finished = 0
-		while(i < 2460): #makes it more likely to schedule every game
+		while(i < 10000): #makes it more likely to schedule every game
 			if (self.league.name == "NHL"):
 				t1num = randint(0, 29)
 				if (self.league.teams[t1num].games < 82):
@@ -144,7 +155,6 @@ class Season:
 						self.createMatch(t1, t2)
 					#t2num = randint(0, 29)
 					#t2num = randint(0, len(self.searchLowestGP()))
-					#add in findSecondTeam here
 					"""
 					if (t2num != t1num and self.league.teams[t2num].games < 82 and self.league.teams[t2num].lastTeam != t1):
 						t2 = self.league.teams[t2num];
@@ -157,20 +167,37 @@ class Season:
 			elif (self.league.name == "DEL"):
 				pass #german league
 
+		#checks just in case a couple teams haven't scheduled games
 		for j in self.league.teams:
 			if (j.games < 82):
 				nextNum = randint(0, 29)
-				if (self.league.teams[nextNum].games >= 82):
-					nextNum = randint(0, 29)
 				while (self.league.teams[nextNum].games >= 82):
 					nextNum = randint(0, 29)
 				self.createMatch(j, self.league.teams[nextNum])
 		for j in self.league.teams:
 			teamTotal = teamTotal + j.games
 			#print(j.name + " " + str(j.games))
-
 		#print(gs)
 		#print(teamTotal)
+
+	def scheduleSeason(self):
+		self.createEveryMatch()
+		print("--------------------------------------")
+		print("Type the id of a team that you want to see a schedule for: ")
+		i = input(">")
+		for m in self.matches:
+			if (i == m.team1.id or i == m.team2.id):
+				print(m.team1.name + " | " + m.team2.name)
+		print("--------------------------------------")
+		i = ""
+		while (i != "y" or i != "Y" or i != "n" or i != "N"):
+			print("Would you like to sim this season? y/n")
+			i = input(">")
+			if (i == "y" or i == "Y"):
+				self.runSeason()
+				break
+			elif (i == "n" or i == "N"):
+				break
 
 	def testCreateMatches(self, t1, t2):
 		i = 0

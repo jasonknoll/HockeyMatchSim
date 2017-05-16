@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"fa",
-				"False	keyword"
+				"create",
+				"createMatch"
 			],
 			[
-				"create",
-				"createLeagueFromDB"
+				"fa",
+				"False	keyword"
 			],
 			[
 				"testMatch",
@@ -183,23 +183,7 @@
 			"file": "main.py",
 			"settings":
 			{
-				"buffer_size": 3960,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Season.py",
-			"settings":
-			{
-				"buffer_size": 4878,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Match.py",
-			"settings":
-			{
-				"buffer_size": 3731,
+				"buffer_size": 4084,
 				"line_ending": "Windows"
 			}
 		},
@@ -284,14 +268,14 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Jason/Desktop/password.txt",
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Season.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Team.py",
-		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/League.py",
-		"/C/Users/Jason/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Match.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/nhldb.xml",
-		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Season.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/deldb.xml",
+		"/C/Users/Jason/Desktop/password.txt",
+		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/League.py",
+		"/C/Users/Jason/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/Player.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/main.py",
 		"/C/Users/Jason/Desktop/python/projects/sportsPredictionPython/Windows/run.bat",
@@ -471,15 +455,15 @@
 					"file": "main.py",
 					"settings":
 					{
-						"buffer_size": 3960,
+						"buffer_size": 4084,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1039,
-								1039
+								445,
+								445
 							]
 						],
 						"settings":
@@ -488,67 +472,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 828.0,
+						"translation.y": 3888.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Season.py",
-					"settings":
-					{
-						"buffer_size": 4878,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3067,
-								3067
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Match.py",
-					"settings":
-					{
-						"buffer_size": 3731,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1173,
-								1173
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 69.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "nhldb.xml",
 					"settings":
 					{
@@ -559,8 +489,8 @@
 						"selection":
 						[
 							[
-								2140,
-								2140
+								2017,
+								2017
 							]
 						],
 						"settings":
@@ -569,7 +499,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2880.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
