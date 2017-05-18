@@ -39,11 +39,11 @@
 		</team>
 		<team id="dal">
 			<name>Dallas Stars</name>
-			<overall>84</overall>
+			<overall>83</overall>
 		</team>
 		<team id="det">
 			<name>Detroit Red Wings</name>
-			<overall>85</overall>
+			<overall>86</overall>
 		</team>
 		<team id="edm">
 			<name>Edmonton Oilers</name>
@@ -63,11 +63,11 @@
 		</team>
 		<team id="mtl">
 			<name>Montreal Canadiens</name>
-			<overall>92</overall>
+			<overall>91</overall>
 		</team>
 		<team id="nsh">
 			<name>Nashville Predators</name>
-			<overall>91</overall>
+			<overall>90</overall>
 		</team>
 		<team id="nj">
 			<name>New Jersey Devils</name>
