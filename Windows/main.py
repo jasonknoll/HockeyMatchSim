@@ -9,9 +9,10 @@
 #Simulate an entire league (possibly post season too) /DONE/
 #Add more details to matches
 #Don't use rosters until the general system of simulating a season is working
+#Export outputs of league status.
 
 global version
-version = "0.2.3"
+version = "0.2.4"
 
 
 
