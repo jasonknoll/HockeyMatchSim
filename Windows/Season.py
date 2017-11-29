@@ -166,6 +166,16 @@ class Season:
 					i = i + 1
 			elif (self.league.name == "DEL"):
 				pass #german league
+			else:
+				t1num = randint(0, 29)
+				if (self.league.teams[t1num].games < 50):
+					t1 = self.league.teams[t1num]
+					t2 = self.findSecondTeam(t1)
+					if (t2.games < 50):
+						self.createMatch(t1, t2)
+					i = i + 1
+				else:
+					i = i + 1
 
 		#checks just in case a couple teams haven't scheduled games
 		for j in self.league.teams:

@@ -1,0 +1,215 @@
+<?xml version="1.0" ?>
+<data>
+   <league name="Random League">
+      <team id="0">
+         <name>team0</name>
+         <overall>91</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="1">
+         <name>team1</name>
+         <overall>97</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="2">
+         <name>team2</name>
+         <overall>76</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="3">
+         <name>team3</name>
+         <overall>89</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="4">
+         <name>team4</name>
+         <overall>88</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="5">
+         <name>team5</name>
+         <overall>84</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="6">
+         <name>team6</name>
+         <overall>92</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="7">
+         <name>team7</name>
+         <overall>94</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="8">
+         <name>team8</name>
+         <overall>92</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="9">
+         <name>team9</name>
+         <overall>98</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="10">
+         <name>team10</name>
+         <overall>96</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="11">
+         <name>team11</name>
+         <overall>86</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="12">
+         <name>team12</name>
+         <overall>90</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="13">
+         <name>team13</name>
+         <overall>75</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="14">
+         <name>team14</name>
+         <overall>93</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="15">
+         <name>team15</name>
+         <overall>91</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="16">
+         <name>team16</name>
+         <overall>96</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="17">
+         <name>team17</name>
+         <overall>78</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="18">
+         <name>team18</name>
+         <overall>83</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="19">
+         <name>team19</name>
+         <overall>98</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="20">
+         <name>team20</name>
+         <overall>85</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="21">
+         <name>team21</name>
+         <overall>79</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="22">
+         <name>team22</name>
+         <overall>84</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="23">
+         <name>team23</name>
+         <overall>88</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="24">
+         <name>team24</name>
+         <overall>87</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="25">
+         <name>team25</name>
+         <overall>86</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="26">
+         <name>team26</name>
+         <overall>95</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="27">
+         <name>team27</name>
+         <overall>95</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="28">
+         <name>team28</name>
+         <overall>89</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+      <team id="29">
+         <name>team29</name>
+         <overall>82</overall>
+         <gamesPlayed>0</gamesPlayed>
+         <Wins>0</Wins>
+         <Losses>0</Losses>
+      </team>
+   </league>
+</data>
