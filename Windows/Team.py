@@ -9,6 +9,7 @@ class Team:
 		self.shots = 0
 		self.wins = 0
 		self.losses = 0
+		self.otl = 0
 		self.points = 0
 		self.goalDif = 0
 		self.didWin = False
@@ -32,6 +33,7 @@ class Team:
 	def addLoss(self):
 		self.losses  = self.losses + 1
 	def addOTL(self): #Work on this later
+		self.otl += 1
 		self.points = self.points + 1
 
 	def printRoster(self):

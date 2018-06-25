@@ -122,15 +122,4 @@
 			<overall>86</overall>
 		</team>
 	</league>
-
-	<players>
-		<player id="0">
-			<name>Jason fgt</name>
-			<overall>100</overall>
-		</player>
-		<player id="1">
-			<name>Connor McDavid</name>
-			<overall>100</overall>
-		</player>
-	</players>
 </data>

@@ -50,22 +50,23 @@ class Match:
 			t1.shots = t1.shots + 10
 		elif (t2.shots <= t2.score):
 			t1.shots = t1.shots + 10
+
 	def checkWin(self, t1, t2):
 		if (t1.score > t2.score):
 			t1.didWin = True
 			t1.addWin()
 			t1.goals = t1.goals + t1.score
 			t2.didWin = False
-			t2.addLoss()
 			t2.goals = t2.goals + t2.score
 			
 			if (t2.hasOTL == True):
 				t2.addOTL()
 				t2.hasOTL = False
+			else:
+				t2.addLoss()
 			
 		elif (t2.score > t1.score):
 			t1.didWin = False
-			t1.addLoss()
 			t1.goals = t1.goals + t1.score
 			t2.didWin = True
 			t2.addWin()
@@ -73,11 +74,13 @@ class Match:
 			
 			if (t1.hasOTL == True):
 				t1.addOTL()
-				t1.hasOTL = False
-			
+				t1.hasOTL = False	
+			else:
+				t1.addLoss()
 		else:
 			t1.didWin = False
 			t2.didWin = False
+
 	def checkOT(self, t1, t2):
 		if (t1.didWin == False and t2.didWin == False):
 			whoWins = randint(0, 1)

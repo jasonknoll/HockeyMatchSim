@@ -12,7 +12,7 @@
 #Export outputs of league status
 
 global version
-version = "0.2.4"
+version = "0.2.6"
 
 
 
@@ -177,6 +177,7 @@ def menu():
 			print("'" + i + "' is not a valid option!")
 
 menu()
+
 """
 setNHLTeams()
 loadDB('nhldb.xml', nhl)

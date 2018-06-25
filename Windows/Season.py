@@ -81,7 +81,7 @@ class Season:
 			self.testCreateMatches(t1, t2)
 			self.testGames(t1, t2) #testing it out between two teams
 		except AttributeError:
-			print("Valid team ID's must be entered")
+			print("Valid team IDs must be entered")
 
 	def fullSeason(self):
 		lg = League()
@@ -124,13 +124,10 @@ class Season:
 		lowestGP = []
 		minimum = self.league.teams[0]
 		for t in self.league.teams:
-			if t.games < minimum.games:
+			if t.games <= minimum.games:
 				lowestGP.append(t) #fixed it
 				minimum = t
-			elif t.games == minimum.games:
-				lowestGP.append(t)
-				minimum = t
-			#print(t.name)
+				#print(t.name)
 		return lowestGP
 
 	def findSecondTeam(self, firstTeam): #pick from every team, but the team we pass
@@ -242,4 +239,4 @@ class Season:
 		self.league.teams.sort(key=lambda x: x.points, reverse=True)
 		for t in self.league.teams:
 			print("-------------------")
-			print(t.name + " | GP: " + str(t.games) + " | wins: " + str(t.wins) + " | losses: " + str(t.losses) + " | points: " + str(t.points) + " |")
+			print(t.name + " | GP: " + str(t.games) + " | wins: " + str(t.wins) + " | losses: " + str(t.losses) + " | OT Losses: " + str(t.otl) + " | points: " + str(t.points) + " |")
