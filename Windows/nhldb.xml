@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <data>
 	<league name="NHL">
+		<conf id="west">
+		</conf>
+		<conf id="east">
+		</conf>
 		<team id="ana">
 			<name>Anaheim Ducks</name>
 			<overall>88</overall>

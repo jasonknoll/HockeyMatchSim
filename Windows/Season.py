@@ -26,6 +26,7 @@ class Season:
 				n = l.get('name')
 				lg.name = n
 			teams = dom.findall('league/team') #check teams
+			# 'league/conf/team'
 			for t in teams:
 				n = t.find('name')
 				o = t.find('overall')
