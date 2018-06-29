@@ -95,9 +95,9 @@ class Match:
 	def printWin(self, t1, t2):
 		print("-------------")
 		if (t1.didWin == True):
-			print(t1.name + " won!")
+			print("{0} won!".format(t1.name))
 		elif (t2.didWin == True):
-			print(t2.name + " won!")
+			print("{0} won!".format(t2.name))
 	def printScore(self, t1, t2):
 		#print(str(t1.points))
 		#print(str(t2.points))

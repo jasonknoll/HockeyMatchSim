@@ -8,6 +8,7 @@
 		<team id="ana">
 			<name>Anaheim Ducks</name>
 			<overall>88</overall>
+			<conf>West</conf>
 		</team>
 		<team id="ari">
 			<name>Arizona Coyotes</name>

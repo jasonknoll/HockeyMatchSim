@@ -30,8 +30,9 @@ class Season:
 			for t in teams:
 				n = t.find('name')
 				o = t.find('overall')
-				i = t.get('id') #id name/number
-				lg.addTeam(Team(n.text, int(o.text), i))
+				id = t.get('id') #id name/number
+				c = t.find('conf') # add the conference
+				lg.addTeam(Team(n.text, int(o.text), id, c))
 			self.foundFile = True
 		except FileNotFoundError:
 			print(fileName + " does not exist!")
@@ -88,28 +89,29 @@ class Season:
 		lg = League()
 		print("What is the name of your database?")
 		n = input(">")
-		self.loadDB(n, lg)
-		self.setLeague(lg)
-		#print(self.league.name)
-		if (self.foundFile == True):
-			self.foundfile = False
-			print("--------------------------------------")
-			print("1. Run whole season")
-			print("2. Just schedule season")
-			print("3. Return to menu")
-			print("--------------------------------------")
-			i = input(">")
-			if (i == "1"):
-				self.createEveryMatch()
-				self.runSeason()
-			elif (i == "2"):
-				self.scheduleSeason()
-			elif (i == "3"):
-				pass
-			else:
-				print("'" + i + "' is not a valid option!")
-		else:
-			pass
+		try:
+			self.loadDB(n, lg)
+			self.setLeague(lg)
+			#print(self.league.name)
+			if (self.foundFile == True):
+				self.foundfile = False
+				print("--------------------------------------")
+				print("1. Run whole season")
+				print("2. Just schedule season")
+				print("3. Return to menu")
+				print("--------------------------------------")
+				i = input(">")
+				if (i == "1"):
+					self.createEveryMatch()
+					self.runSeason()
+				elif (i == "2"):
+					self.scheduleSeason()
+				elif (i == "3"):
+					pass
+				else:
+					print("'" + i + "' is not a valid option!")
+		except FileNotFoundError:
+				print("The file {0} does not exist!".format(n))	
 
 	def setLeague(self, lg):
 		self.league = lg #allow us to sort standings
@@ -232,7 +234,8 @@ class Season:
 		while (i < 82):
 			self.matches[i].runWithoutScore()
 			i = i + 1
-		print(t1.name + "' wins " + str(t1.wins) + " points " + str(t1.points))
+		#print(t1.name + "' wins " + str(t1.wins) + " points " + str(t1.points))
+		print("{0}'s wins {1} points {2}".format(t1.name, str(t1.wins), str(t1.points)))
 		print(t2.name + "' wins " + str(t2.wins) + " points " + str(t2.points))
 		#We can simulate a season using only two teams here
 

@@ -1,5 +1,5 @@
 class Team:
-	def __init__(self, n="", o=0, ID=""):
+	def __init__(self, n="", o=0, ID="", c=""):
 		self.name = n
 		self.id = ID
 		self.overall = o
@@ -19,6 +19,7 @@ class Team:
 		self.roster = [] #work on this after a general league is created
 		self.total = 0 #total of the roster players' overall ratings
 		self.lastTeam = ""
+		self.conference = ""
 
 		#self.schedule = [] #list of matches
 		#Don't use this, as this screws up organization
