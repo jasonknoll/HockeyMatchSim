@@ -14,8 +14,6 @@
 global version
 version = "0.2.6"
 
-
-
 import os
 import sys
 from xml.etree import ElementTree
