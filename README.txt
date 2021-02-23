@@ -10,6 +10,8 @@ you want to do.
 You will either pick from a database, or just do a quick
 simulation of two teams that you will create.
 
+WARNING: HAS NOT ADDED VGK
+
 Thanks,
 
 Jason Knoll
